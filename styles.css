@@ -451,6 +451,82 @@ a {
   border-top: 1px solid var(--line);
 }
 
+.cv-hero {
+  padding: clamp(46px, 8vw, 96px) clamp(18px, 5vw, 76px) clamp(30px, 5vw, 56px);
+}
+
+.cv-hero h1 {
+  margin: 0;
+  font-size: clamp(3.2rem, 9vw, 7.6rem);
+  line-height: 0.9;
+  letter-spacing: 0;
+}
+
+.cv-hero p:not(.eyebrow) {
+  max-width: 840px;
+  color: var(--deep);
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+}
+
+.cv-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.34fr) minmax(0, 1fr);
+  gap: 20px;
+  padding: 0 clamp(18px, 5vw, 76px) clamp(48px, 7vw, 84px);
+}
+
+.cv-sidebar,
+.cv-main {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
+.cv-sidebar section,
+.cv-block,
+.cv-role {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cv-sidebar h2,
+.cv-block h2 {
+  margin: 0 0 12px;
+  font-size: 1.15rem;
+}
+
+.compact-list,
+.cv-block ul {
+  margin: 0;
+  padding-left: 19px;
+}
+
+.compact-list li + li,
+.cv-block li + li {
+  margin-top: 7px;
+}
+
+.cv-role + .cv-role {
+  margin-top: 14px;
+}
+
+.cv-role h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cv-role p,
+.cv-sidebar p,
+.cv-block p {
+  color: var(--muted);
+}
+
+.cv-role ul {
+  margin-top: 14px;
+}
+
 @media (max-width: 920px) {
   .site-header {
     align-items: flex-start;
@@ -468,7 +544,8 @@ a {
   .split,
   .capability-band,
   .contact,
-  .experience-list article {
+  .experience-list article,
+  .cv-layout {
     grid-template-columns: 1fr;
   }
 

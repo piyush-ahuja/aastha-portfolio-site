@@ -197,7 +197,8 @@ a {
 }
 
 .intro p,
-.section-title + p {
+.section-title + p,
+.section-note {
   color: var(--muted);
   font-size: 1.1rem;
 }
@@ -249,7 +250,8 @@ a {
 
 .work-list,
 .experience-list,
-.roadmap {
+.roadmap,
+.project-index-grid {
   display: grid;
   gap: 16px;
 }
@@ -298,6 +300,49 @@ a {
 
 .roadmap {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-index-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-placeholder {
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.project-placeholder.active {
+  border-left: 5px solid var(--architect-green);
+  box-shadow: var(--shadow);
+}
+
+.project-placeholder .status {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: var(--architect-green);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-placeholder h3 {
+  margin: 0;
+  color: #1f3d54;
+  font-size: 1.12rem;
+}
+
+.project-placeholder p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.project-placeholder a {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 800;
 }
 
 .roadmap div {
@@ -378,7 +423,8 @@ a {
   .page,
   .metric-row,
   .work-item dl,
-  .roadmap {
+  .roadmap,
+  .project-index-grid {
     grid-template-columns: 1fr;
   }
 

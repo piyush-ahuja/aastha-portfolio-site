@@ -8,7 +8,27 @@
     <meta property="og:title" content="Aastha Narula | AI-Mediated Growth Product Manager">
     <meta property="og:description" content="AI-native PM portfolio across GEO, RAG, experimentation, growth analytics, and product operating systems.">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260708-1">
+    <script>
+      (function () {
+        var refreshWindowMs = 15 * 24 * 60 * 60 * 1000;
+        var key = "aasthaPortfolioLastCacheRefresh";
+        var now = Date.now();
+        var last = Number(localStorage.getItem(key) || 0);
+        var params = new URLSearchParams(window.location.search);
+
+        if (!params.has("cacheRefresh") && (!last || now - last > refreshWindowMs)) {
+          localStorage.setItem(key, String(now));
+          params.set("cacheRefresh", String(now));
+          window.location.replace(window.location.pathname + "?" + params.toString() + window.location.hash);
+          return;
+        }
+
+        if (!last) {
+          localStorage.setItem(key, String(now));
+        }
+      })();
+    </script>
   </head>
   <body>
     <header class="hero-shell" id="top">

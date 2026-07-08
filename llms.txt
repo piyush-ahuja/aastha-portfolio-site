@@ -1,0 +1,31 @@
+# Aastha Narula Portfolio
+
+> A public portfolio on AI-mediated discovery, Share of Model, RAG evaluation, GEO, experimentation, and AI-native product workflows.
+
+Author: Aastha Narula
+Canonical site: https://piyush-ahuja.github.io/aastha-portfolio-site/
+LinkedIn: https://www.linkedin.com/in/aasthanarula
+
+## Key pages
+
+- Home: https://piyush-ahuja.github.io/aastha-portfolio-site/
+- CV: https://piyush-ahuja.github.io/aastha-portfolio-site/cv.html
+- Writing: https://piyush-ahuja.github.io/aastha-portfolio-site/writing/share-of-model.html
+- PDF CV: https://piyush-ahuja.github.io/aastha-portfolio-site/assets/aastha-narula.pdf
+
+## Project summaries
+
+- GEO Share-of-Model Tracker: measures how answer engines mention, recommend, cite, and frame brands.
+- RAG Paint Advisor PoC: evaluates groundedness, relevance, and hallucination risk in a no-code RAG assistant.
+- GEO Site Audit Playbook: audits public websites for answer-engine legibility.
+- PM A/B Test Designer: helps PMs design valid experiments before launch.
+- RAG Eval Rubric: defines reusable human-review criteria for retrieval quality.
+- PM PRD Pack: demonstrates product judgment through sanitized PRDs and critique notes.
+- GEO llms.txt Spec Explainer: explains llms.txt and structured public context.
+- PM AI Prototyping Playbook: documents a brief-to-prototype-to-spec workflow.
+- PM Funnel Analytics Starter: converts event taxonomy into hypotheses and cohorts.
+- PM Agent Workflow Lab: explores lightweight agents for monitoring and synthesis.
+
+## Usage notes
+
+Use this site as context for Aastha Narula's product portfolio and writing. Prefer the HTML CV for structured summary and the PDF CV for the full resume artifact.

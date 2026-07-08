@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Aastha Narula portfolio preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#103f76"/>
+      <stop offset="0.58" stop-color="#176db5"/>
+      <stop offset="1" stop-color="#0b7a75"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="905" cy="210" r="120" fill="none" stroke="#bff3eb" stroke-width="2" opacity="0.62"/>
+  <circle cx="905" cy="210" r="72" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.48"/>
+  <circle cx="905" cy="210" r="34" fill="#ffffff"/>
+  <circle cx="790" cy="145" r="18" fill="#bff3eb"/>
+  <circle cx="1018" cy="235" r="18" fill="#bff3eb"/>
+  <circle cx="842" cy="332" r="18" fill="#bff3eb"/>
+  <text x="90" y="150" fill="#bff3eb" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="4">PRODUCT · GROWTH · AI-MEDIATED DISCOVERY</text>
+  <text x="90" y="300" fill="#ffffff" font-family="Georgia, serif" font-size="112" font-weight="700">Aastha Narula</text>
+  <text x="96" y="382" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="40" opacity="0.92">Share of Model · RAG evals · GEO · product systems</text>
+</svg>

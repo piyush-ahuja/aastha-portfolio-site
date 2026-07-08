@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Aastha Narula Writing</title>
+    <link>https://piyush-ahuja.github.io/aastha-portfolio-site/</link>
+    <description>Essays on AI-mediated discovery, product systems, GEO, and evaluation.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0530</lastBuildDate>
+    <item>
+      <title>What Share of Model actually measures</title>
+      <link>https://piyush-ahuja.github.io/aastha-portfolio-site/writing/share-of-model.html</link>
+      <guid>https://piyush-ahuja.github.io/aastha-portfolio-site/writing/share-of-model.html</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0530</pubDate>
+      <description>A practical essay on answer-engine visibility, measurement boundaries, and PM judgment.</description>
+    </item>
+  </channel>
+</rss>

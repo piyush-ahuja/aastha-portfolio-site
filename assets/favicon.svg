@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Aastha Narula favicon">
+  <rect width="64" height="64" rx="14" fill="#0b7a75"/>
+  <circle cx="21" cy="23" r="7" fill="#ffffff"/>
+  <circle cx="43" cy="23" r="7" fill="#bff3eb"/>
+  <circle cx="32" cy="43" r="8" fill="#ffffff"/>
+  <path d="M21 23h22M25 29l7 14 7-14" stroke="#103f76" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

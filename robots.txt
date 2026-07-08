@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://piyush-ahuja.github.io/aastha-portfolio-site/sitemap.xml

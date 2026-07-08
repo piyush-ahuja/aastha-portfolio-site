@@ -22,6 +22,6 @@ Then open `http://localhost:4173`.
 
 ## Public Safety
 
-- Phone number is intentionally omitted.
-- The résumé PDF is available through `assets/aastha-narula.pdf`; the public page uses LinkedIn as the only visible contact path.
+- The public page uses LinkedIn as the visible contact path.
+- The résumé PDF is available through `assets/aastha-narula.pdf`.
 - Copy avoids employer-confidential details beyond public, résumé-level claims.
